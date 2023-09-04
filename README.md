@@ -14,3 +14,5 @@
 主要分支中：核心文件，可以鼠标点选追踪，无网页展示部分。
 
 展示分支中：实现了网页展示，但无法鼠标点选追踪。
+
+config文件夹为coco的类；data文件夹为demo动图和test视频；output文件夹为output视频；runs/detect/train文件夹中包括
