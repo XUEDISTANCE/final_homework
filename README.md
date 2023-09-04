@@ -15,4 +15,4 @@
 
 展示分支中：实现了网页展示，但无法鼠标点选追踪。
 
-config文件夹为coco的类；data文件夹为demo动图和test视频；output文件夹为output视频；runs/detect/train文件夹中包括
+config文件夹为coco的类；data文件夹为demo动图和test视频；output文件夹为output视频；runs/detect/train文件夹中包括train所用的标签及标签属性、图片和结果；报告为课程项目设计报告.docx，不在文件夹内。
