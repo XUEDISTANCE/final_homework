@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>web Video</title>
+    <script>
+
+      function printMousePos(event) {
+      //  document.body.textContent =
+      //  "clientX: " + event.clientX +
+      //  " - clientY: " + event.clientY;
+       x=event.clientX; y=event.clientY;
+       xxyy=[x,y]
+      }
+    
+    document.addEventListener("click", printMousePos);
+    </script>
+  </head>
+  <body>
+    <!--<h1>web端实时视频demo</h1>-->
+    <img src="{{ url_for('video_feed') }}">
+  </body>
+</html>
